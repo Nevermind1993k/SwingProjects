@@ -34,7 +34,7 @@ public class CheckFrame extends JFrame implements ItemListener {
 
         this.add(box);
 
-    }//CheckFrame()
+    }
 
     @Override
     public void itemStateChanged(ItemEvent e) {
@@ -58,5 +58,5 @@ public class CheckFrame extends JFrame implements ItemListener {
         }
         // оновити текст мітки, що виводить вибрані прапорці
         chooseLabel.setText(labelText);
-    }//itemStateChanged()
-}//CheckFrame
+    }
+}
