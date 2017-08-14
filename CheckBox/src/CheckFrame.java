@@ -56,7 +56,7 @@ public class CheckFrame extends JFrame implements ItemListener {
                 }
             }
         }
-        // оновити текст мітки, що виводить вибрані прапорці
+        // оновити текст мітки, що виводить вибрані прапорці.
         chooseLabel.setText(labelText);
     }
 }
