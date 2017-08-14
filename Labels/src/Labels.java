@@ -6,6 +6,7 @@ public class Labels {
         frame.setSize(200, 250);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        System.out.println("done");
 
     }
 }
