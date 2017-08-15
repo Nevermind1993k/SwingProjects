@@ -23,6 +23,9 @@ public class TestMenu {
 
 class Menu extends JMenuBar {
     public Menu(JFrame frame) {
+
+        //1
+
         //створюємо рядок меню
         JMenuBar menuBar = new JMenuBar();
         //додаємо рядок меню у фрейм
@@ -43,7 +46,7 @@ class Menu extends JMenuBar {
 
         //створити меню "закрити" в якому поряд з написом буде зображення
         JMenuItem closeItem = new JMenuItem("Закрити",
-                new ImageIcon("E:/Dev/New/Swing/SwingProjects/Menu/CloseIcon.jpg"));
+                new ImageIcon("E:/Dev/New/Swing/SwingProjects/Menu/CloseIcon123.jpg"));
         fileMenu.add(closeItem);
         //додаємо обробник подій використавши безіменний внутрішній клас
         closeItem.addActionListener(new ActionListener() {
@@ -64,11 +67,11 @@ class Menu extends JMenuBar {
         // меню "Допомога"
         JMenu helpMenu = new JMenu("Допомога");
         menuBar.add(helpMenu);
-        // можна використати метод add()
-        // для додавання пунктів в меню зразу ж при створенні
+
+        // 2
         JMenuItem helpItem = helpMenu.add("Довідка");
         JMenuItem aboutItem = helpMenu.add("Про програму");
 
-        
+
     }
 }
