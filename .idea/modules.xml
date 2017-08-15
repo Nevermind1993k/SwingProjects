@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Button/Button.iml" filepath="$PROJECT_DIR$/Button/Button.iml" />
       <module fileurl="file://$PROJECT_DIR$/CheckBox/CheckBox.iml" filepath="$PROJECT_DIR$/CheckBox/CheckBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComboBox/ComboBox.iml" filepath="$PROJECT_DIR$/ComboBox/ComboBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/Label/Label.iml" filepath="$PROJECT_DIR$/Label/Label.iml" />
       <module fileurl="file://$PROJECT_DIR$/RadioButtons/RadioButtons.iml" filepath="$PROJECT_DIR$/RadioButtons/RadioButtons.iml" />
       <module fileurl="file://$PROJECT_DIR$/SwingProjects.iml" filepath="$PROJECT_DIR$/SwingProjects.iml" />
